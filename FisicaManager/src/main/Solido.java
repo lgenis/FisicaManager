@@ -1,11 +1,12 @@
 package main;
 
 public class Solido implements Fisica{
-
+	private float masa;
+	
 	@Override
 	public float getMasa(){
 		//TODO calculo de masa
-		return 45;
+		return masa;
 	}
 
 	@Override
@@ -16,5 +17,9 @@ public class Solido implements Fisica{
 	
 	public float getVolumen(){
 		return 10;
+	}
+	
+	public void setMasa(float f){
+		this.masa=f;
 	}
 }

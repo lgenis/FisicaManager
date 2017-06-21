@@ -12,9 +12,9 @@ public class FisicaComputer {
 		return peso;
 	}
 	
-	@Deprecated
+	/*@Deprecated
 	public float computePesoEnTierra(Solido objetoConFisica){
 		float peso=Fisica.GRAVEDAD_TIERRA*objetoConFisica.getMasa();
 		return peso;
-	}
+	}*/
 }
